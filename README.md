@@ -13,7 +13,7 @@ You can get travel recommendation for a particular traveller based on age, desti
 
 ## Test Data
 
-Test data is provided in ./testdata
+Test data is provided in [./testdata](./testdata)
 
 e.g. use the following command to call the recommendation engine:
 
