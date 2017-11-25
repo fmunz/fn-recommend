@@ -61,6 +61,7 @@ fn routes list advtravel
 ```
 cd src/main/java/com/munzandmore/fn/
 grep handle *.java
+cat Traveller.java
 ``` 
 
 #### test with curl  or Postman
@@ -79,4 +80,8 @@ fn routes c advtravel /fn-recommend recommend:0.0.31
 
 Then test from local curl
 
+```
+curl -X POST --data @testdata/xyz.json REMOTE_IP:8080/r/advtravel/recommend
+```
 
+Should work!
