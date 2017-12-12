@@ -1,4 +1,4 @@
-name: recommend
-version: 0.0.30
+name: fn-recommend
+version: 0.0.1
 runtime: java
 cmd: com.munzandmore.fn.RecommendFunction::handleRequest
