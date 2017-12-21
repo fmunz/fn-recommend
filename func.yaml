@@ -2,3 +2,6 @@ name: fn-recommend
 version: 0.0.1
 runtime: java
 cmd: com.munzandmore.fn.RecommendFunction::handleRequest
+build_image: fnproject/fn-java-fdk-build:jdk9-1.0.55
+run_image: fnproject/fn-java-fdk:jdk9-1.0.55
+format: http
