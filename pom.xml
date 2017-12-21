@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <fdk.version>1.0.46</fdk.version>
+        <fdk.version>1.0.55</fdk.version>
     </properties>
     <groupId>com.munzandmore.fn</groupId>
     <artifactId>recommend</artifactId>
