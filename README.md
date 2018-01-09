@@ -9,7 +9,7 @@ You can get travel recommendation for a particular traveller based on age, desti
 ## Implementation
 
 - uses Jackson marshalling for JSON parameter (Traveller.java)
-- can be deployed on remote Fn as shown here on [munz & more blog](http://www.munzandmore.com/2017/aws/fn-project-on-public-clouds)
+- can be deployed on remote Fn as shown here on [munz & more blog](http://www.munzandmore.com/2018/aws/fn-project-on-public-clouds)
 
 ## Test Data
 
