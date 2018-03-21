@@ -37,6 +37,7 @@ fn start
 ```
 docker login DOCKER_ID  
 export FN_REGISTRY=DOCKER_ID  
+export FN_API_URL=http://microservices.click:8080
 fn deploy --app advtravel  
 ```
 
