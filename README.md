@@ -25,6 +25,12 @@ curl -X POST --data @testdata/syd.json localhost:8080/r/advtravel/recommend
 
 ###  Preparation
 
+#### remote
+
+``` 
+fn apps d advtravel
+fn start
+```
 
 #### local 
 
@@ -33,12 +39,7 @@ docker login DOCKER_ID  
 export FN_REGISTRY=DOCKER_ID  
 fn deploy --app advtravel  
 ```
-#### remote
 
-``` 
-fn apps d advtravel
-fn start
-```
 
 ### Live Demo Local Side
 
